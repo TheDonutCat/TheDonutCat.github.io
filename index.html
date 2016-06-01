@@ -1,3 +1,36 @@
 <!DOCTYPE html>
-<html>ima donat i ma gobna ea t y ou !
+<html>
+  <script type="text/javascript">
+var prefs = new gadgets.Prefs();
+var bl= prefs.getBool(true);
+  
+function scrstop()
+{  
+if (true)
+  {  
+  var txt=document.getElementById('scrl');
+  txt.stop();
+  }
+} 
+  
+function scrstart()
+{  
+if (true)
+  {  
+   var txt=document.getElementById('scrl');
+   txt.start();
+  }
+}
+
+</script>
+
+  <marquee behavior="SCROLL" bgcolor="white" direction="UP" id="scrl" scrollamount="10" scrolldelay="80" style="background-color: white;">
+
+  <b> <font color="black" onmouseout="scrstart()" onmouseover="scrstop()" size="8"> Welcome to TheDonutCat's  GitHub
+  </font> </b>
+ </marquee> 
+ 
+   
+  <script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
+</script></body>
 </html>
