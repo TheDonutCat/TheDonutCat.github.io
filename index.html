@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <script type="text/javascript">
+  <style>
+  .1 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+</style>
+ <div class="1"> <script type="text/javascript">
 var prefs = new gadgets.Prefs();
 var bl= prefs.getBool(true);
   
@@ -24,13 +32,15 @@ if (true)
 
 </script>
 
-  <marquee behavior="SCROLL" bgcolor="white" direction="UP" id="scrl" scrollamount="10" scrolldelay="80" style="background-color: white;">
+  <marquee behavior="SCROLL" bgcolor="white" direction="UP" id="scrl" scrollamount="10" scrolldelay="160" style="background-color: white;">
 
   <b> <font color="black" onmouseout="scrstart()" onmouseover="scrstop()" size="8"> Welcome to TheDonutCat's  GitHub
   </font> </b>
  </marquee> 
- 
+
    
   <script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
 </script></body>
-</html>
+ </div>
+ 
+ </html>
